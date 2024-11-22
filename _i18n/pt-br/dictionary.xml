@@ -749,4 +749,11 @@
   <block id="5313a9ac102424f63dd4d76f5280130e" category="sidebar">Limitações na AWS</block>
   <block id="1fff298355326f8c77bd77059a41c1a2" category="sidebar">Limitações no Azure</block>
   <block id="9a3a0c4b2afbb088e029484d4b34ba8b" category="sidebar">Limitações no Google Cloud</block>
+  <block id="596423d773da4d74868ca1a577a8f423" category="paragraph">Algumas melhorias no desempenho do FabricPool podem afetar seus dados em camadas no Cloud Volumes ONTAP.</block>
+  <block id="97aaaff90c83c1de77726c6f8e7edfe5" category="paragraph-title">Melhorias na velocidade de leitura sequencial e na disposição em camadas</block>
+  <block id="72104ef2281edd2d898132944d4a7d79" category="paragraph">Devido à performance de leitura aprimorada e à taxa de transferência em camadas no FabricPool, é possível que haja uma taxa mais alta de<block ref="7528035a93ee69cedb1dbddb2f0bfcc8" prefix=" " category="inline-code"></block> operações e<block ref="3e75383a5992a6d15fb81e872e46e256" prefix=" " category="inline-code"></block> armazenamentos de objetos no local. Certifique-se de que existe espaço suficiente para um desempenho perfeito.</block>
+  <block id="a96f02a492680446509f1ea5ea14d111" category="paragraph-title">Funcionalidade Readahead agressiva</block>
+  <block id="11239924a0f998971d2f090e7e50b3e0" category="paragraph">O<block ref="567317ccd355e882ed3e573ab1b87615" prefix=" " category="inline-code"></block> recurso no FabricPool pode aumentar as operações de leitura em um nível de arquivo, o que, por sua vez, pode aumentar os custos de leitura e a utilização de memória na nuvem pública.</block>
+  <block id="9e212a2c3e1a9570b60e318e22e8c381" category="paragraph-title">Funcionalidade Cloud Write</block>
+  <block id="c2c4fca58f0994c8802a93fe1a04cd7d" category="paragraph">Esse recurso permite que os clientes NFS gravem diretamente no nível de capacidade no FabricPool. Este recurso tem certas limitações e deve ser usado com cuidado. Por exemplo, se o tráfego NFS de gravação na nuvem for adicionado ao tráfego ONTAP normal, como o SnapMirror, o objetivo geral do ponto de restauração (RPO) e o objetivo de tempo de recuperação (rto) no SnapMirror poderão ser afetados.</block>
 </blocks>
