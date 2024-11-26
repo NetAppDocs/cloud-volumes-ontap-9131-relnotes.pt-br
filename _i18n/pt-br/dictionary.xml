@@ -727,7 +727,6 @@
   <block id="1222cf807490df82fd7e0146eb6798c1" category="paragraph">Quando a janela de manutenção for anunciada, o nó parceiro do nó de destino executará um takeover. Quando a manutenção estiver concluída, um giveback será iniciado. Após a giveback, espera-se que o par HA retorne a um estado saudável. Se isso não ocorrer, entre em Contato com o suporte da NetApp para obter assistência. Observe que os eventos de manutenção são direcionados a uma das VMs em um par de HA de cada vez e, normalmente, ambos os nós são direcionados em um período de tempo relativamente curto.</block>
   <block id="1355c3042f61af06b4a61506de6e8ad1" category="paragraph">Os clientes CIFS/SMB que usam compartilhamentos CIFS não continuamente disponíveis do Cloud Volumes ONTAP sofrerão uma perda de sessão, tanto quando ocorre uma aquisição quanto quando o agregado que a sessão está usando é devolvido ao nó inicial do agregado. Esta é uma limitação imposta pelo próprio protocolo CIFS/SMB. Os clientes podem querer usar produtos de terceiros para evitar problemas que possam surgir com a aquisição e a giveback. Para obter mais assistência, entre em Contato com o suporte da NetApp.</block>
   <block id="66929aea59eb5153444c9aa0a8e8722f" category="sidebar">Essas notas de versão descrevem novos recursos, limitações e problemas conhecidos do Cloud Volumes ONTAP 9,13.</block>
-  <block id="a69b1618b78e74242413945e92315e51" category="sidebar">Notas de versão do Cloud Volumes ONTAP 9.13.1</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Comece agora</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">O que há de novo</block>
   <block id="8efc36afc2e7202a9c9bda00b8e8a75d" category="sidebar">Visão geral do licenciamento</block>
@@ -759,11 +758,11 @@
   <block id="1b62edb82c1bd156e44ee97345e44486" category="paragraph">O patch 9.13.1 P12 já está disponível para o Cloud Volumes ONTAP para todos os provedores de nuvem. O BlueXP  solicitará que você atualize seus sistemas existentes para esta versão de patch.</block>
   <block id="8a1258bf37cf0340b92dd9f9ca39acfa" category="inline-link-macro">Veja a lista de bugs corrigidos no patch P12</block>
   <block id="455214c21df5263f6ed36c053cb45a4e" category="paragraph"><block ref="9c93dffbb4ec23fa855293479535be60" category="inline-link-macro-rx"></block> (É necessário iniciar sessão no site de suporte da NetApp).</block>
-  <block id="e107edea5015f3e06a3e74dda1dc6b6f" category="inline-link">Guia de práticas recomendadas da FabricPool</block>
-  <block id="35817b290a25aecb5178d7e9eaf01a17" category="paragraph">Para saber mais, consulte a.<block ref="a846ee339ee812c7fc25a76975d73fb9" category="inline-link-rx"></block></block>
   <block id="417d564baf44c113e38a023e8ac69531" category="inline-link">Ativar e desativar o modo de leitura antecipada agressivo</block>
   <block id="40a618f301b0824dc71ab1ceed4fe45d" category="paragraph">Para saber mais, consulte a documentação do ONTAP:<block ref="5ac0d9b6b12766db0ad38c087c84f3bf" category="inline-link-rx"></block></block>
   <block id="555816af48eeb34081ba83c44d62bd87" category="inline-link">Ative e desative volumes para gravação diretamente na nuvem</block>
   <block id="08580da782a41b39a0487a40d392a946" category="paragraph">Para saber mais, consulte a documentação do ONTAP:<block ref="31143d7508b448ef79ac6c1971109dcf" category="inline-link-rx"></block></block>
   <block id="a6fe7cde79de251ddde0aaad9dbb2181" category="sidebar">Notas de versão do Cloud Volumes ONTAP 9.13.1</block>
+  <block id="9a0e7479c9cf0eb3c5daeee67a193e9c" category="inline-link">Guia de práticas recomendadas da FabricPool</block>
+  <block id="5136c1f236d74f0ffec89821cebaa3c3" category="paragraph">Para saber mais, consulte a.<block ref="b2bafa57d3373ad362797046a95bb197" category="inline-link-rx"></block></block>
 </blocks>
