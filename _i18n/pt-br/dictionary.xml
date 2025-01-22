@@ -769,4 +769,6 @@
   <block id="22067bef00fafa857cd29657fd57d4db" category="paragraph">O patch 9.13.1 P13 já está disponível para o Cloud Volumes ONTAP para todos os provedores de nuvem. O BlueXP  solicitará que você atualize seus sistemas existentes para esta versão de patch.</block>
   <block id="fc8e67b0bd5bbf26831e34a1066ac996" category="inline-link-macro">Veja a lista de bugs corrigidos no patch P13</block>
   <block id="5eabc8a0c0c39c74fb8dc252d1f4b0a4" category="paragraph"><block ref="2b43c2e9c454c5dada52848a3d251b6a" category="inline-link-macro-rx"></block> (É necessário iniciar sessão no site de suporte da NetApp).</block>
+  <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Limitações com o uso de extensões Azure VM</block>
+  <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">O Cloud Volumes ONTAP não oferece suporte a extensões de máquina virtual (VM) do Azure e aplicativos de VM em uma implantação. O uso do Cloud Volumes ONTAP no Azure com extensões de VM causa atrasos nas operações e a NetApp recomenda evitá-las.</block>
 </blocks>
