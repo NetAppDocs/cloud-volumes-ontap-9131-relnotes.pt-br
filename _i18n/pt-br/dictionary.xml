@@ -771,4 +771,8 @@
   <block id="ef9be83cb59b0572a3581a6724316e48" category="list-text">Para obter suporte à região do Google Cloud Platform,<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>consulte .</block>
   <block id="d798d4963d0ac509a1bda5483d9b9a52" category="paragraph"><block ref="5a94f18247116693735ff13d8eeaa964" category="inline-link-rx"></block>.</block>
   <block id="e352347c3b9ab444c9cbd3aba4e7075d" category="sidebar">Essas notas de versão descrevem novos recursos, limitações e problemas conhecidos do Cloud Volumes ONTAP 9.13.1</block>
+  <block id="26ec81ff5c81559f7b03729282f91614" category="section-title">9.13.1 P14 (17 de abril de 2025)</block>
+  <block id="e704552b4c3a7637fec737f29e4f81b7" category="paragraph">O patch 9.13.1 P14 já está disponível para o Cloud Volumes ONTAP para todos os provedores de nuvem. O BlueXP  solicitará que você atualize seus sistemas existentes para esta versão de patch.</block>
+  <block id="c476446cae3f83bea1b304ddc122e040" category="inline-link-macro">Veja a lista de bugs corrigidos no patch P14</block>
+  <block id="78a93fb58bfa815953d0dd609c64d9b2" category="paragraph"><block ref="51eb214624a80ecbca9373da2cbd3635" category="inline-link-macro-rx"></block> (É necessário iniciar sessão no site de suporte da NetApp).</block>
 </blocks>
