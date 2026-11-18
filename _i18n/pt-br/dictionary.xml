@@ -648,8 +648,6 @@
   <block id="7e250845f86eeaaaf4e55296f483f4ee" category="summary">O Cloud Volumes ONTAP 9.13.1 inclui uma nova melhoria.</block>
   <block id="59d68d1abaff04001d7f138b569d66a1" category="doc">Novidades do Cloud Volumes ONTAP 9.13.1</block>
   <block id="0775e0f9165c68236ce80a5eeaf622d2" category="paragraph">O Cloud Volumes ONTAP 9.13.1 inclui novos aprimoramentos.</block>
-  <block id="9889b7a9df56580016f59ccd942fb1d1" category="inline-link">Notas de versão do BlueXP</block>
-  <block id="4bdb15bfe1bad472d818dc31e8f53185" category="paragraph">Recursos e aprimoramentos adicionais também são introduzidos nas versões mais recentes do BlueXP . Consulte<block ref="c7887e85c6060ae2594d873a0f2ae025" category="inline-link-rx"></block> para obter detalhes.</block>
   <block id="9eec1a698d59cbcaa356c70875f2dfdc" category="section-title">9.13.1 P11 (14 de outubro de 2024)</block>
   <block id="f171f0e8d194c2373f3cc30c09a319da" category="paragraph">O patch 9.13.1 P11 já está disponível para o Cloud Volumes ONTAP para todos os provedores de nuvem. O BlueXP  solicitará que você atualize seus sistemas existentes para esta versão de patch.</block>
   <block id="4d51ff14f4691186785e9ce841b8db7c" category="inline-link-macro">Veja a lista de bugs corrigidos no patch P11</block>
@@ -775,4 +773,11 @@
   <block id="c476446cae3f83bea1b304ddc122e040" category="inline-link-macro">Veja a lista de bugs corrigidos no patch P14</block>
   <block id="78a93fb58bfa815953d0dd609c64d9b2" category="paragraph"><block ref="51eb214624a80ecbca9373da2cbd3635" category="inline-link-macro-rx"></block> (É necessário iniciar sessão no site de suporte da NetApp).</block>
   <block id="fb83bdf454bf964031306f46d967b051" category="paragraph">As larguras de banda mostradas na tabela abaixo correspondem aos limites documentados da AWS para cada tipo de instância. Esses limites não correspondem totalmente ao que Cloud Volumes ONTAP pode fornecer. Para o desempenho esperado, consulte <block ref="f9e25e1e3616de01564541c204317f8f" category="inline-link-rx"></block>.</block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link-macro">Cloud Volumes ONTAP</block>
+  <block id="a6eefc87b37bef0346f44d6b69100767" category="paragraph">Recursos e melhorias adicionais também foram introduzidos nas versões mais recentes do NetApp Console. Consulte <block ref="1d9c556cbea0cbbdf1160d623abde8cc" category="inline-link-macro-rx"></block> para obter detalhes.</block>
+  <block id="16a5075e4f3a3c22587a9fd06fcedf15" category="section-title">9.13.1 P21HF1 (12 de novembro de 2026)</block>
+  <block id="e590031c7b7bcb2f6f969488ad777316" category="paragraph">O patch 9.13.1 P21HF1 já está disponível para o Cloud Volumes ONTAP para todos os provedores de nuvem. Este patch é compatível com ONTAP hotfix para 9.13.1.</block>
+  <block id="8ad3eb5eca42a4379abc9f1c9a2f829a" category="paragraph">Nos seus sistemas Cloud Volumes ONTAP, o Console pode solicitar que você atualize para este hotfix. No entanto, este hotfix é compatível apenas quando a versão do agente do Console é 4.12.0 ou posterior. Se a versão do agente do Console for anterior a 4.12.0, ignore a solicitação.</block>
+  <block id="08853958e0db62fd50058fd45b355d7a" category="inline-link-macro">Agente do Console 4.12.0</block>
+  <block id="8e8b20b71032c4ee10ed609d1fc74995" category="paragraph"><block ref="8e8b20b71032c4ee10ed609d1fc74995" category="inline-link-macro-rx"></block></block>
 </blocks>
